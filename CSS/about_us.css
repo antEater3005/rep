@@ -1,0 +1,85 @@
+/* Apply some basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    margin: 20px;
+  }
+  
+  /* Style the heading */
+  h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Add some padding and background color to the main content */
+  .main-content {
+    padding: 20px;
+    background-color: #8bb177;
+    border-radius: 5px;
+  }
+  
+  /* Center align the text within the main content */
+  .main-content p, .main-content h2 {
+    text-align: center;
+  }
+  
+  /* Style the introduction paragraph */
+  .main-content p:first-of-type {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Add some spacing and style the section titles */
+  .main-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add some spacing and style the section paragraphs */
+  .main-content p {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the closing paragraph */
+  .main-content p:last-of-type {
+    font-style: italic;
+    text-align: center;
+  }
+  
+  /* Add a border and some padding to the container */
+  .container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Add some spacing and style the container's child elements */
+  .container > * {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the heading within the container */
+  .container h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the paragraph within the container */
+  .container p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the link within the container */
+  .container a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Change the link color on hover */
+  .container a:hover {
+    color: #ff0000;
+  }
+  
