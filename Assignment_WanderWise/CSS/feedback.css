@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  
+
+  background: url('../images/feedback_bg.png') ;
+  background-size: cover;
+  
+  
+  opacity: 0;
+  transition: opacity 1s ease-in;
+
+  
+}
+
+body.loaded {
+  opacity: 1;
+}
+
+.backtohome-btn{
+  background-color: #02a2a2;
+  border:1px;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+  
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4fb27e;
+  
+  
+}
+.feedback-container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #bfe0ce;
+  opacity: .8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #1d1818;
+  border-radius: 5px;
+}
+
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #1d1818;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+textarea {
+  height: 100px;
+}
+
+select {
+  width: 104%;
+  padding: 10px;
+  border: 1px solid #1d1818;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #02A2A2;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  text-align: center;
+  margin: auto;
+
+  display: flex;
+  display: grid;
+}
+
+button[type="submit"]:hover {
+  background-color: #018383;
+}
+
+
+.dialog{
+  display: none;
+}

@@ -1,0 +1,129 @@
+/* tours.css */
+
+
+.wanderwise-image:hover {
+    opacity: 0.8;
+  }
+  
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  .header {
+    background-color:hsl(180, 98%, 31%);
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .navbar-item {
+    margin-left: 20px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Main */
+  .hero {
+    background-image: url("images/hero-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 24px;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .tour-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .tour-card {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+  }
+  
+  .tour-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .tour-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .tour-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .btn-link:hover {
+    background-color: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
